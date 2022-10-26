@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+}
+#content {
+    width: 100%;
+    height: 100%;
+}
+body {
+    
+    width: 100%;
+    overflow: auto;
+}
+.main {
+    padding: 10px;
+    text-align: center;
+    background-color: red;
+    height: 100%;
+    width: 100%;
+
+}
+.header {
+    display: flex;
+    width: 100%;
+    height: 150px;
+    align-items: center;
+    justify-content: flex-end;
+    font-size: 50px;
+    background-color: blue;
+    color: white;
+    flex-direction: column;
+}
+#img1 {
+    width: auto;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.info {
+    width: 400px;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.tablist {
+    display: flex;
+    width: 400px;
+    height: 70px;
+    align-items: flex-end;
+    justify-content: center;
+    gap: 20px;
+    list-style: none;
+}
+.tablist li {
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    border-radius: 5px 5px 0px 0px;
+    background-color: yellowgreen;
+    padding: 5px;
+    font-size: 30px;
+}
+.menuTitle {
+    font-size: 23px;
+    font-weight: bold;
+    color: white;
+
+}
+.menuPara {
+    font-size: 15px;
+    font-style: italic;
+    color: white;
+    margin-bottom: 20px;
+
+}
+.contactBanner {
+    width: 300px;
+    height: 75px;
+    color: white;
+    background-color: gray;
+    border: 5px solid black;
+    font-size: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact {
+    margin: 10px;
+    color: white;
+    font-size: 30px;
+}
+.tabSelected {
+    background-color: red !important;
+}
